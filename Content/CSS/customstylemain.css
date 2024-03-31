@@ -1,0 +1,121 @@
+﻿
+:root{
+	--theme-colorOne:#ff0000;
+	--theme-colorTwo:#ffffff;
+	--background-color:#000000;
+	--text-fontFamily:sans-serif;
+	--text-colorOne:#ffffff;
+	--text-colorTwo:#808080;
+}
+
+/*Common css */
+.text-decoration-underline{
+	text-decoration:underline;
+}
+
+.custom-form-control{
+	height:48px;
+	border-color:#ffffff;
+}
+/*end of common css*/
+
+.footer-mainDiv{
+	background-color:var(--background-color);
+	padding-top:3rem;
+}
+
+.footer-nav-div {
+	margin-bottom: .4rem;
+}
+
+.footer-nav-textStyle {
+	font-family: sans-serif;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: normal;
+	text-transform:capitalize;
+	color: var(--text-colorTwo);
+}
+
+a.footer-nav-textStyle:hover{
+	color:var(--text-colorOne);
+}
+
+.footer-copywrite-textStyle {
+	font-family: var(--text-fontFamily);
+	font-style: normal;
+	font-size: 10px;
+	line-height: 12px;
+	font-weight: normal;
+	padding-bottom: 1rem;
+	color: var(--text-colorOne);
+}
+
+.sectionOne {
+	width:100%;
+	height:75vh;
+	/*filter:brightness(.6);*/
+	background-image: url('../Images/NYCTM-Home-Banner-39.png');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+.sectionOne-container {
+	height:75vh;
+}
+
+.sectionOne h2{
+	font-family:var(--text-fontFamily);
+	font-size:45px;
+	font-style:normal;
+	line-height:1.6;
+	letter-spacing:normal;
+	font-weight:600;
+	color:var(--text-colorOne);
+}
+
+.sectionOne p{
+	font-family:var(--text-fontFamily);
+	line-height:1.6;
+	font-style:normal;
+	letter-spacing:normal;
+	color:var(--text-colorOne);
+}
+
+.sectionOne p.paraOne{
+	font-size:22px;
+}
+
+.sectionOne p.paraTwo{
+	font-size:18px;
+}
+
+.banner-form-input{
+	background-color:rgb(0,0,0,0.4);
+}
+
+.banner-form-submitBtn{
+	height:48px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.banner-form-submitBtn-textStyle{
+	font-family:var(--text-fontFamily);
+	font-size:20px;
+	font-style:normal;
+	font-weight:600;
+	line-height:1.6;
+	letter-spacing:normal;
+	color:var(--text-colorOne);
+}
+
+.arrowImgStyle {
+	width: 25px;
+	filter: invert(1);
+	margin-top: 4px;
+	margin-left: 15px;
+}
+
