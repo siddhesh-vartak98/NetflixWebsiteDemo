@@ -1,11 +1,12 @@
-﻿
-:root{
-	--theme-colorOne:#ff0000;
-	--theme-colorTwo:#ffffff;
-	--background-color:#000000;
-	--text-fontFamily:sans-serif;
-	--text-colorOne:#ffffff;
-	--text-colorTwo:#808080;
+﻿						
+:root {
+	--theme-colorOne: #ff0000;
+	--theme-colorTwo: #ffffff;
+	--background-color: #000000;
+	--text-fontFamily: sans-serif;
+	--text-colorOne: #F8F8F8;
+	--text-colorTwo: #808080;
+	--faq-bkColor: #505050;
 }
 
 /*Common css */
@@ -18,6 +19,10 @@
 	border-color:#ffffff;
 }
 /*end of common css*/
+
+.header-logo {
+	height: 100px;
+}
 
 .footer-mainDiv{
 	background-color:var(--background-color);
@@ -54,7 +59,7 @@ a.footer-nav-textStyle:hover{
 
 .sectionOne {
 	width:100%;
-	height:75vh;
+	height:85vh;
 	/*filter:brightness(.6);*/
 	background-image: url('../Images/NYCTM-Home-Banner-39.png');
 	background-size:cover;
@@ -62,8 +67,9 @@ a.footer-nav-textStyle:hover{
 	background-position:center center;
 }
 
+
 .sectionOne-container {
-	height:75vh;
+	height: 75vh;
 }
 
 .sectionOne h2{
@@ -76,21 +82,21 @@ a.footer-nav-textStyle:hover{
 	color:var(--text-colorOne);
 }
 
-.sectionOne p{
-	font-family:var(--text-fontFamily);
-	line-height:1.6;
-	font-style:normal;
-	letter-spacing:normal;
-	color:var(--text-colorOne);
+.sectionOne p, .form-email-header {
+	font-family: var(--text-fontFamily);
+	line-height: 1.6;
+	font-style: normal;
+	letter-spacing: normal;
+	color: var(--text-colorOne);
 }
 
 .sectionOne p.paraOne{
 	font-size:22px;
 }
 
-.sectionOne p.paraTwo{
-	font-size:18px;
-}
+	.sectionOne p.paraTwo, .form-email-header {
+		font-size: 18px;
+	}
 
 .banner-form-input{
 	background-color:rgb(0,0,0,0.4);
@@ -120,7 +126,7 @@ a.footer-nav-textStyle:hover{
 }
 
 .section-border-bottom{
-	border-bottom:10px solid var(--text-colorTwo);
+	border-bottom:8px solid var(--text-colorTwo);
 }
 
 .sectionTwo, .sectionThree, .sectionFour, .sectionFive {
@@ -193,6 +199,47 @@ a.footer-nav-textStyle:hover{
 	background-position: center center;
 }
 
-.accordion .card{
-	margin-bottom:10px;
+.accordion .card {
+	margin-bottom: 10px;
+	background-color: var(--faq-bkColor);
 }
+
+.accordion > .card > .card-header > h2 > .btn-link {
+	font-family: var(--text-fontFamily);
+	font-size: 16px;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: normal;
+	line-height: 1.5;
+	color: var(--text-colorOne);
+	text-decoration: none;
+}
+
+.card-header {
+	background-color: var(--faq-bkColor);
+}
+
+.card-body p {
+	font-family:var(--text-fontFamily);
+	font-size:16px;
+	font-variant:normal;
+	font-weight:normal;
+	letter-spacing:normal;
+	line-height:1.5;
+	color:var(--text-colorOne);
+}
+
+.accordion-plusMinSign{
+	padding-top:5px;
+}
+
+/*.accordion .card-header:after {
+	font-family: 'FontAwesome';
+	content: "\f068";
+	float: right;
+}
+
+.accordion .card-header.collapsed:after {*/
+	/* symbol for "collapsed" panels */
+	/*content: "\f067";
+}*/

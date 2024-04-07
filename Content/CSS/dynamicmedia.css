@@ -1,3 +1,76 @@
-﻿body
-{
+﻿
+/*--------- For all mobile device screen--------*/
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+	img{
+		width:100%;
+	}
+
+	.sectionThree-imgTwo{
+		width:100%;
+		left:0;
+	}
+
+	.header-logo{
+		height:80px;
+	}
+
+	.footer-nav-textStyle{
+		font-size:18px;
+	}
+
+	.footer-nav-textStyle{
+		font-size:17px;
+	}
+
+	.sectionTwo, .sectionThree, .sectionFour, .sectionFive {
+		padding: 3rem 0 3rem 0;
+	}
+
+	.sectionSix {
+		padding: 3rem 0 3rem 0;
+	}
+
+	.sectionOne h2 {
+		font-size: 32px;
+		line-height: 1.3;
+		text-align: center;
+	}
+
+	.sectionOne{
+		height:80vh;
+	}
+
+	.sectionOne-container {
+		height: 60vh;
+	}
+
+	.sectionOne p.paraOne, .sectionOne p.paraTwo {
+		font-size: 20px;
+	}
+
+	.sectionOne p.paraOne {
+		margin-bottom: 1.5rem;
+	}
+
+	.sectionOne p.paraTwo{
+		padding-left:1rem;
+		padding-right:1rem;
+	}
+
+	.section-header{
+		font-size:35px;
+		line-height:42px;
+		text-align:center;
+	}
+
+	.section-para{
+		padding-left:.5rem;
+		padding-right:.5rem;
+		font-size:18px;
+		line-height:1.5;
+		text-align:center;
+	}
+
+
 }
